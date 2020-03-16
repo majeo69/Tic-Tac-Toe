@@ -1,7 +1,7 @@
 const PLAYER_ONE_SYMBOL = 'X';
 const PLAYER_TWO_SYMBOL = 'O';
 
-class TicTacTaeGame {
+class TicTacToeGame {
   
    handleSquareClick(event) {
        this.executeMove(event.target.id);
@@ -76,5 +76,5 @@ class TicTacTaeGame {
 
 }
 
-const game = new TicTacTaeGame();
+const game = new TicTacToeGame();
 game.start();
