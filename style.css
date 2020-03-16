@@ -5,9 +5,9 @@ body {
     font-family: 'Courgette', cursive;
 }
 
-/* html {
-    background-image: linear-gradient(to bottom, red, #f06d06);
-} */
+html {
+    background-image: linear-gradient(to bottom, #000000, #000000);
+} 
 
 .board {
     display: flex;
@@ -23,14 +23,16 @@ body {
     width: 200px;
     height: 200px;
     border: 2px solid rgb(255, 238, 0);
+    background-color: rgb(255, 0, 157);
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6em;
+    font-size: 8em;
 }
 
 .square:hover {
     cursor: pointer;
     background-color: aqua;
 }
+
