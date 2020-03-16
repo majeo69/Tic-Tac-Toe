@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* html {
+    background-image: linear-gradient(to bottom, red, #f06d06);
+} */
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgb(94, 255, 0);
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(255, 238, 0);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+}
+
+.square:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
